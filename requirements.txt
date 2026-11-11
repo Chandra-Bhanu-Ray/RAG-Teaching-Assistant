@@ -1,0 +1,9 @@
+streamlit>=1.37
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+numpy>=1.26
+pypdf>=4.2
+python-dotenv>=1.0
+requests>=2.32
+anthropic>=0.40
+openai>=1.40

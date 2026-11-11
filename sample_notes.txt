@@ -1,0 +1,7 @@
+Machine Learning Basics. Machine learning is a field of AI where computers learn patterns from data instead of being explicitly programmed. Supervised learning uses labelled examples, such as emails marked spam or not spam, to learn a mapping from inputs to outputs. Unsupervised learning finds structure in unlabelled data, for example grouping customers into clusters with k-means.
+
+Overfitting happens when a model memorises the training data, including its noise, and therefore performs poorly on new data. Common remedies are collecting more data, using regularisation, simplifying the model, and stopping training early. Underfitting is the opposite problem: the model is too simple to capture the pattern.
+
+Gradient descent is an optimisation algorithm that minimises a loss function. At every step it moves the model parameters in the direction opposite to the gradient of the loss. The learning rate controls the step size: too large and training diverges, too small and training is very slow.
+
+Train, validation and test sets are used to build and judge models. The model learns on the training set, hyperparameters are tuned on the validation set, and the final unbiased performance is reported on the test set.

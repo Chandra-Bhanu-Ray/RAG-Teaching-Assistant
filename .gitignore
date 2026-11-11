@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+index_store/
+data/*
+!data/sample_notes.txt
+.DS_Store
